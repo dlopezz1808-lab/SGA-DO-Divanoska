@@ -1,0 +1,38 @@
+# Archivos compilados de Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+build/
+
+# Archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Archivos compilados de C++
+*.o
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dylib
+*.obj
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos generados por el sistema
+Data/
+*.txt
+!README.md
