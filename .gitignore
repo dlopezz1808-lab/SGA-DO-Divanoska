@@ -32,7 +32,8 @@ venv/
 *.swp
 *.swo
 
-# Archivos generados por el sistema
-Data/
+# Configuracion para permitir la carpeta Data y el control de txt sin afectar el codigo
+Data/*
+!Data/.gitkeep
 *.txt
 !README.md
